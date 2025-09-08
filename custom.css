@@ -1219,6 +1219,9 @@ html[data-theme=dark] {
   --ct-header-bg-color: #272c35ee;
   --ls-selection-color: #000;
   --ls-block-highlight-color: #32445a;
+  --popover: 219 15% 18%;
+  --border: 180 7% 19%;
+  scrollbar-color: rgba(255, 255, 255, 0.2) var(--ls-primary-background-color);
 }
 
 .dark-theme .image-resize {
