@@ -1059,6 +1059,12 @@ progress::-webkit-progress-value {
   --ct-checkbox-color: var(--ls-active-primary-color);
 }
 
+/* Search box */
+html[data-theme=dark][data-color=logseq] .form-input {
+  background-color: var(--color-level-1);
+  border-color: var(--ls-primary-background-color);
+}
+
 /* Markers */
 .form-checkbox,
 .form-checkbox:focus {
